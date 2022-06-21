@@ -1,0 +1,40 @@
+from typing import Union , Tuple [EOL] import typing [EOL] __version__ = [string] [EOL] __version_info__ = tuple ( [ int ( num ) if num . isdigit ( ) else num for num in __version__ . replace ( [string] , [string] , [number] ) . split ( [string] ) ] ) [EOL]	0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0 $typing.Tuple[typing.Union[builtins.int,builtins.str],...]$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+from django . apps import AppConfig [EOL] [EOL] [EOL] class UsersConfig ( AppConfig ) : [EOL] name = [string] [EOL] verbose_name = [string] [EOL] [EOL] def ready ( self ) : [EOL] [docstring] [EOL] try : [EOL] import users . signals [comment] [EOL] except ImportError : [EOL] pass [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0 $builtins.str$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+	0
+	0
+	0
+from typing import Type , Tuple [EOL] import digitalnomad [EOL] import typing [EOL] import factory [EOL] [EOL] [EOL] class UserFactory ( factory . django . DjangoModelFactory ) : [EOL] username = factory . Sequence ( lambda n : f" [string] { n }" ) [EOL] email = factory . Sequence ( lambda n : f" [string] { n } [string] " ) [EOL] password = factory . PostGenerationMethodCall ( [string] , [string] ) [EOL] [EOL] class Meta : [EOL] model = [string] [EOL] django_get_or_create = ( [string] , ) [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $typing.Type[digitalnomad.users.tests.factories.UserFactory]$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $typing.Type[digitalnomad.users.tests.factories.UserFactory]$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $typing.Type[digitalnomad.users.tests.factories.UserFactory]$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0 $typing.Tuple[builtins.str]$ 0 0 0 0 0 0
+	0
+from django . test import TestCase [EOL] [EOL] [comment] [EOL]	0 0 0 0 0 0 0 0 0 0
+from django . apps import AppConfig [EOL] [EOL] [EOL] class ImagesConfig ( AppConfig ) : [EOL] name = [string] [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0
+	0
+[comment] [EOL] [EOL] from typing import List , Tuple [EOL] import typing [EOL] from django . db import migrations [EOL] [EOL] [EOL] class Migration ( migrations . Migration ) : [EOL] [EOL] dependencies = [ ( [string] , [string] ) , ] [EOL] [EOL] operations = [ migrations . AlterModelOptions ( name = [string] , options = { [string] : [ [string] ] } , ) , ] [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $typing.List[typing.Tuple[builtins.str,builtins.str]]$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[comment] [EOL] [EOL] from typing import List , Tuple [EOL] import typing [EOL] from django . db import migrations [EOL] [EOL] [EOL] class Migration ( migrations . Migration ) : [EOL] [EOL] dependencies = [ ( [string] , [string] ) , ] [EOL] [EOL] operations = [ migrations . RenameField ( model_name = [string] , old_name = [string] , new_name = [string] , ) , ] [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $typing.List[typing.Tuple[builtins.str,builtins.str]]$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[docstring] [EOL]	0 0
+[docstring] [EOL]	0 0
+[docstring] [EOL]	0 0
+	0
+from django . test import TestCase [EOL] [EOL] [comment] [EOL]	0 0 0 0 0 0 0 0 0 0
+from django . apps import AppConfig [EOL] [EOL] [EOL] class NotificationsConfig ( AppConfig ) : [EOL] name = [string] [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0
+	0
+[comment] [EOL] [EOL] from typing import List , Tuple [EOL] import typing [EOL] from django . db import migrations [EOL] [EOL] [EOL] class Migration ( migrations . Migration ) : [EOL] [EOL] dependencies = [ ( [string] , [string] ) , ] [EOL] [EOL] operations = [ migrations . AlterModelOptions ( name = [string] , options = { [string] : [ [string] ] } , ) , ] [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $typing.List[typing.Tuple[builtins.str,builtins.str]]$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+from typing import Union , Tuple [EOL] import typing [EOL] __version__ = [string] [EOL] __version_info__ = tuple ( [ int ( num ) if num . isdigit ( ) else num for num in __version__ . replace ( [string] , [string] , [number] ) . split ( [string] ) ] ) [EOL]	0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0 $typing.Tuple[typing.Union[builtins.int,builtins.str],...]$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+from django . apps import AppConfig [EOL] [EOL] [EOL] class UsersAppConfig ( AppConfig ) : [EOL] [EOL] name = [string] [EOL] verbose_name = [string] [EOL] [EOL] def ready ( self ) : [EOL] try : [EOL] import users . signals [comment] [EOL] except ImportError : [EOL] pass [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0 $builtins.str$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+	0
+	0
+import django [EOL] import pytest [EOL] from django . conf import settings [EOL] [EOL] pytestmark = pytest . mark . django_db [EOL] [EOL] [EOL] def test_user_get_absolute_url ( user ) : [EOL] assert user . get_absolute_url ( ) == f" [string] { user . username } [string] " [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+from typing import Sequence , List , Type , Any [EOL] import nomadgram [EOL] import typing [EOL] import builtins [EOL] from typing import Any , Sequence [EOL] [EOL] from django . contrib . auth import get_user_model [EOL] from factory import DjangoModelFactory , Faker , post_generation [EOL] [EOL] [EOL] class UserFactory ( DjangoModelFactory ) : [EOL] [EOL] username = Faker ( [string] ) [EOL] email = Faker ( [string] ) [EOL] name = Faker ( [string] ) [EOL] [EOL] @ post_generation def password ( self , create , extracted , ** kwargs ) : [EOL] password = Faker ( [string] , length = [number] , special_chars = True , digits = True , upper_case = True , lower_case = True , ) . generate ( extra_kwargs = { } ) [EOL] self . set_password ( password ) [EOL] [EOL] class Meta : [EOL] model = get_user_model ( ) [EOL] django_get_or_create = [ [string] ] [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $typing.Type[nomadgram.users.tests.factories.UserFactory]$ 0 0 0 0 0 0 $typing.Type[nomadgram.users.tests.factories.UserFactory]$ 0 0 0 0 0 0 $typing.Type[nomadgram.users.tests.factories.UserFactory]$ 0 0 0 0 0 0 0 0 0 0 $typing.Any$ 0 0 0 $builtins.bool$ 0 $typing.Sequence[typing.Any]$ 0 0 0 0 0 0 $typing.Any$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $typing.Any$ 0 0 0 0 0 0 0 $typing.Type[nomadgram.users.tests.factories.UserFactory.Meta]$ 0 0 0 0 0 $typing.List[builtins.str]$ 0 0 0 0 0
+	0
+from django . test import TestCase [EOL] [EOL] [comment] [EOL]	0 0 0 0 0 0 0 0 0 0
+	0
+from django . apps import AppConfig [EOL] [EOL] [EOL] class ImagesConfig ( AppConfig ) : [EOL] name = [string] [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0
+	0
+[docstring] [EOL]	0 0
+[docstring] [EOL]	0 0
+[docstring] [EOL]	0 0
+from django . apps import AppConfig [EOL] [EOL] [EOL] class NotificationsConfig ( AppConfig ) : [EOL] name = [string] [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0
+	0
+from django . test import TestCase [EOL] [EOL] [comment] [EOL]	0 0 0 0 0 0 0 0 0 0
+	0
+	0
+	0

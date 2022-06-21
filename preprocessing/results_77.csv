@@ -1,0 +1,81 @@
+Filepath, Skipped Types, AnnTotal, #Annotations, #SkippedTypes, #NoneSkips, #InvalidSkips, #MissingPath,
+/projects/dataclasses-json/dataclasses_json/cfg.py,"{'None', 'typing.list'}",85,(17*5),8,5,3,0,9.41%
+/projects/docstring_parser/docstring_parser/parser.py,set(),15,(3*5),0,0,0,0,0.00%
+/projects/flutes/flutes/math.py,set(),15,(3*5),0,0,0,0,0.00%
+/projects/flutils/flutils/packages.py,{'None'},60,(12*5),11,11,0,0,18.33%
+/projects/httpie/httpie/models.py,{'None'},165,(33*5),13,13,0,0,7.88%
+/projects/httpie/httpie/cli/exceptions.py,set(),0,(0*5),0,0,0,0,#DIV/0!
+/projects/httpie/httpie/cli/constants.py,set(),0,(0*5),0,0,0,0,#DIV/0!
+/projects/httpie/httpie/output/formatters/json.py,{'None'},30,(6*5),1,1,0,0,3.33%
+/projects/httpie/httpie/plugins/manager.py,{'None'},125,(25*5),2,2,0,0,1.60%
+/projects/httpie/httpie/output/formatters/headers.py,{'None'},25,(5*5),3,3,0,0,12.00%
+/projects/httpie/httpie/plugins/base.py,"{'None', 'typing.Optional[datetime.datetime.datetime]'}",95,(19*5),20,19,1,0,21.05%
+/projects/isort/isort/comments.py,{'None'},35,(7*5),1,1,0,0,2.86%
+/projects/flutils/flutils/setuputils/cmd.py,{'None'},50,(10*5),7,7,0,0,
+/projects/isort/isort/exceptions.py,"{'None', 'numpy.ndarray'}",180,(36*5),23,22,1,0,12.78%
+/projects/mimesis/mimesis/builtins/it.py,{'None'},25,(5*5),2,2,0,0,8.00%
+/projects/mimesis/mimesis/builtins/uk.py,{'None'},25,(5*5),1,1,0,0,4.00%
+/projects/mimesis/mimesis/providers/development.py,"{'None', 'typing.list'}",60,(12*5),5,4,1,0,8.33%
+/projects/mimesis/mimesis/providers/code.py,{'None'},100,(20*5),20,20,0,0,20.00%
+/projects/mimesis/mimesis/providers/transport.py,"{'pandas.DataFrame', 'None'}",80,(16*5),17,16,1,0,21.25%
+/projects/mimesis/mimesis/providers/clothing.py,"{'typing.list', 'None'}",40,(8*5),4,3,1,0,10.00%
+/projects/mimesis/mimesis/builtins/nl.py,{'None'},40,(8*5),2,2,0,0,5.00%
+/projects/mimesis/mimesis/providers/hardware.py,{'None'},130,(26*5),19,19,0,0,14.62%
+/projects/mimesis/mimesis/builtins/da.py,set(),20,(4*5),0,0,0,0,0.00%
+/projects/mimesis/mimesis/providers/units.py,{'None'},40,(8*5),8,8,0,0,20.00%
+/projects/mimesis/mimesis/exceptions.py,{'None'},90,(18*5),14,14,0,0,15.56%
+/projects/mimesis/mimesis/enums.py,set(),0,(0*5),0,0,0,0,#DIV/0!
+/projects/mimesis/mimesis/builtins/base.py,{'None'},15,(3*5),2,2,0,0,13.33%
+/projects/mimesis/mimesis/builtins/de.py,set(),25,(5*5),0,0,0,0,0.00%
+/projects/mimesis/mimesis/shortcuts.py,set(),10,(2*5),0,0,0,0,0.00%
+/projects/mimesis/mimesis/builtins/pt_br.py,{'None'},70,(14*5),2,2,0,0,2.86%
+/projects/py-backwards/py_backwards/transformers/class_without_bases.py,"{'typing.Tuple[typing_extensions.Literal,typing_extensions.Literal]', 'typing.Generator[typing.Any,None,None]'}",15,(3*5),2,1,1,0,13.33%
+/projects/py-backwards/py_backwards/transformers/import_pathlib.py,set(),0,(0*5),0,0,0,0,#DIV/0!
+/projects/py-backwards/py_backwards/transformers/python2_future.py,"{'typing.Tuple[typing_extensions.Literal,typing_extensions.Literal]', 'typing.Tuple[typing.Any,...]', 'None'}",20,(4*5),5,3,2,0,25.00%
+/projects/py-backwards/py_backwards/transformers/string_types.py,"{'typing.Tuple[typing_extensions.Literal,typing_extensions.Literal]'}",15,(3*5),1,0,1,0,6.67%
+/projects/py-backwards/py_backwards/transformers/variables_annotations.py,"{'None', 'typing.Tuple[typing_extensions.Literal,typing_extensions.Literal]'}",15,(3*5),3,2,1,0,20.00%
+/projects/py-backwards/py_backwards/transformers/yield_from.py,"{'None', 'typing.Tuple[typing.Any,...]', 'LN', 'typing.Union[typing_extensions.Literal,typing_extensions.Literal]'}",110,(22*5),17,6,9,2,15.45%
+/projects/py-backwards/py_backwards/transformers/metaclass.py,"{'typing.Tuple[typing_extensions.Literal,typing_extensions.Literal]', 'typing.Tuple[typing_extensions.Literal,typing_extensions.Literal,typing_extensions.Literal,typing_extensions.Literal]'}",40,(8*5),3,0,3,0,7.50%
+/projects/py-backwards/py_backwards/utils/snippet.py,"{'typing.Tuple[typing.Any,...]', 'numpy.ndarray', 'typing.Callable[...,typing.Any]', 'torch.Tensor', 'typing.tuple', 'gluonts.model.common.Tensor', 'typing.Union[typing_extensions.Literal,typing_extensions.Literal]', 'typing.list', 'typing.Generator[typing.Any,None,None]', 'LN', 'pandas.DataFrame', 'flask.Response', 'None'}",285,(57*5),102,40,61,1,35.79%
+/projects/py-backwards/py_backwards/transformers/functions_annotations.py,"{'typing.Tuple[typing_extensions.Literal,typing_extensions.Literal]'}",30,(6*5),2,0,2,0,6.67%
+/projects/py-backwards/py_backwards/conf.py,{'None'},10,(2*5),2,2,0,0,20.00%
+/projects/py-backwards/py_backwards/transformers/starred_unpacking.py,"{'None', 'typing.Generator[typing.Any,None,None]', 'typing.Tuple[typing_extensions.Literal,typing_extensions.Literal]'}",100,(20*5),3,2,1,0,3.00%
+/projects/py-backwards/py_backwards/transformers/return_from_generator.py,"{'None', 'typing.Tuple[typing_extensions.Literal,typing_extensions.Literal]', 'LN'}",50,(10*5),5,3,1,1,10.00%
+/projects/py-backwards/py_backwards/transformers/base.py,"{'typing.Union[typing_extensions.Literal,typing_extensions.Literal]', 'typing.list', 'typing.dict', 'typing.List[None]', 'None', 'flask.Response', 'datetime.datetime.datetime'}",195,(39*5),28,19,9,0,14.36%
+/projects/py-backwards/py_backwards/transformers/formatted_values.py,"{'None', 'LN'}",30,(6*5),5,4,0,1,16.67%
+/projects/py-backwards/py_backwards/transformers/dict_unpacking.py,"{'None', 'typing.Tuple[typing_extensions.Literal,typing_extensions.Literal]'}",85,(17*5),3,2,1,0,3.53%
+/projects/pyMonet/pymonet/box.py,{'None'},130,(26*5),4,4,0,0,3.08%
+/projects/pyMonet/pymonet/validation.py,{'None'},185,(37*5),6,6,0,0,3.24%
+/projects/pyMonet/pymonet/maybe.py,{'None'},180,(36*5),10,10,0,0,5.56%
+/projects/pyMonet/pymonet/monad_try.py,{'None'},160,(32*5),7,7,0,0,4.38%
+/projects/pyMonet/pymonet/lazy.py,{'None'},210,(42*5),7,7,0,0,3.33%
+/projects/pyMonet/pymonet/semigroups.py,{'None'},250,(50*5),6,6,0,0,2.40%
+/projects/pyMonet/pymonet/task.py,{'None'},100,(20*5),3,3,0,0,3.00%
+/projects/pypara/pypara/commons/numbers.py,set(),25,(5*5),0,0,0,0,0.00%
+/projects/pypara/pypara/commons/others.py,set(),15,(3*5),0,0,0,0,0.00%
+/projects/pypara/pypara/accounting/generic.py,set(),0,(0*5),0,0,0,0,#DIV/0!
+/projects/pypara/pypara/commons/errors.py,{'typing.list'},15,(3*5),1,0,1,0,6.67%
+/projects/pypara/pypara/commons/zeitgeist.py,set(),0,(0*5),0,0,0,0,#DIV/0!
+/projects/python-string-utils/string_utils/errors.py,{'None'},10,(2*5),2,2,0,0,20.00%
+/projects/pytutils/pytutils/excs.py,set(),5,(1*5),0,0,0,0,0.00%
+/projects/pytutils/pytutils/debug.py,set(),5,(1*5),0,0,0,0,0.00%
+/projects/pytutils/pytutils/props.py,{'None'},105,(21*5),10,10,0,0,9.52%
+/projects/pytutils/pytutils/lazy/simple_import.py,"{'flask.blueprints.Blueprint', 'typing.list', 'None'}",45,(9*5),6,4,2,0,13.33%
+/projects/pytutils/pytutils/meth.py,"{'None', 'typing.Callable[...,typing.Any]'}",15,(3*5),4,3,1,0,26.67%
+/projects/sanic/sanic/models/futures.py,set(),0,(0*5),0,0,0,0,#DIV/0!
+/projects/sanic/sanic/mixins/signals.py,"{'None', 'typing.Tuple[typing.Any,...]'}",105,(21*5),18,15,3,0,17.14%
+/projects/sanic/sanic/helpers.py,"{'typing.dict', 'dep_check.models.SourceFile', 'None', '_importlib_modulespec.ModuleType', 'typing.Generator[typing.Any,None,None]'}",60,(12*5),10,3,7,0,16.67%
+/projects/sanic/sanic/config.py,{'None'},70,(14*5),5,5,0,0,7.14%
+/projects/sanic/sanic/mixins/middleware.py,{'None'},95,(19*5),2,2,0,0,2.11%
+/projects/sanic/sanic/base.py,"{'typing.list', 'typing.Union[typing_extensions.Literal,typing_extensions.Literal]', 'None'}",50,(10*5),6,4,2,0,12.00%
+/projects/sanic/sanic/handlers.py,"{'None', 'typing.Generator[typing.Any,None,None]', 'typing.list', 'typing.dict', 'typing.Dict[unknown,typing.Any]'}",115,(23*5),26,20,5,1,22.61%
+/projects/sanic/sanic/views.py,"{'django.http.HttpRequest', 'aiohttp.web.Request', 'faust.web.Request', 'typing.list', 'None'}",130,(26*5),13,4,9,0,10.00%
+/projects/sanic/sanic/mixins/listeners.py,"{'None', 'typing.Tuple[typing.Any,...]', 'gluonts.model.common.Tensor', 'pandas.DataFrame'}",170,(34*5),30,20,10,0,17.65%
+/projects/sanic/sanic/headers.py,{'None'},85,(17*5),1,1,0,0,1.18%
+/projects/sty/sty/renderfunc.py,set(),70,(14*5),0,0,0,0,0.00%
+/projects/sty/sty/lib.py,{'None'},10,(2*5),1,1,0,0,10.00%
+/projects/sty/sty/register.py,"{'typing.list', 'flask.app.Flask', 'None'}",20,(4*5),4,1,3,0,20.00%
+/projects/thonny/thonny/token_utils.py,set(),15,(3*5),0,0,0,0,0.00%
+/projects/flutils/flutils/strutils.py,set(),65,(13*5),0,0,0,0,0.00%
+,,5165,,548,399,143,6,
+,,90.41%,,9.59%,6.98%,2.50%,0.11%,

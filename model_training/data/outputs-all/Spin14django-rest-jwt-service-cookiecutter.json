@@ -1,0 +1,2 @@
+[comment] [EOL] [EOL] import sys [EOL] [EOL] if __name__ == [string] : [EOL] from django . core . management import execute_from_command_line [EOL] [EOL] execute_from_command_line ( sys . argv ) [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+	0

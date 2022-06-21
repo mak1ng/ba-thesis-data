@@ -1,0 +1,15 @@
+import builtins [EOL] from typing import Type [EOL] import typing [EOL] import config [EOL] import os [EOL] [EOL] [EOL] class BaseConfig : [EOL] DEBUG = False [EOL] [EOL] TESTING = False [EOL] [EOL] SECRET_KEY = os . environ . get ( [string] ) [EOL] [EOL] [comment] [EOL] BASE_DIR = os . path . dirname ( __file__ ) [EOL] [EOL] [comment] [EOL] GOOGLE_MAPS_API_KEY = os . environ . get ( [string] ) [EOL] [EOL] [comment] [EOL] SQLALCHEMY_TRACK_MODIFICATIONS = False [EOL] SQLALCHEMY_DATABASE_URI = os . environ . get ( [string] ) [EOL] [EOL] [comment] [EOL] CUSTOM_TEMPLATES_DIR = os . path . join ( BASE_DIR , [string] , [string] ) [EOL] [EOL] [comment] [EOL] [comment] [EOL] RELEASE_VERSION = os . environ . get ( [string] ) [EOL] [EOL] [EOL] class ProdConfig ( BaseConfig ) : [EOL] pass [EOL] [EOL] [EOL] class DevConfig ( BaseConfig ) : [EOL] DEBUG = True [EOL] SECRET_KEY = [string] [EOL] SQLALCHEMY_DATABASE_URI = [string] [EOL] [EOL] [EOL] class TestConfig ( BaseConfig ) : [EOL] TESTING = True [EOL] SECRET_KEY = [string] [EOL] SQLALCHEMY_DATABASE_URI = [string] [EOL] WTF_CSRF_ENABLED = False [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $builtins.bool$ 0 0 0 $builtins.str$ 0 0 0 $builtins.str$ 0 0 0 0 0 0 0 0 0 0 0 0 $builtins.bool$ 0 0 0 $builtins.str$ 0 0 0 $builtins.str$ 0 0 0 $builtins.bool$ 0 0 0
+[docstring] [EOL] from alembic import op [EOL] import sqlalchemy as sa [EOL] from sqlalchemy . dialects import mysql [EOL] [EOL] [comment] [EOL] revision = [string] [EOL] down_revision = [string] [EOL] branch_labels = None [EOL] depends_on = None [EOL] [EOL] [EOL] def upgrade ( ) : [EOL] [comment] [EOL] op . alter_column ( [string] , [string] , existing_type = mysql . VARCHAR ( length = [number] ) , nullable = True ) [EOL] [comment] [EOL] [EOL] [EOL] def downgrade ( ) : [EOL] [comment] [EOL] op . alter_column ( [string] , [string] , existing_type = mysql . VARCHAR ( length = [number] ) , nullable = False ) [EOL] [comment] [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0 $builtins.str$ 0 0 0 $None$ 0 0 0 $None$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0

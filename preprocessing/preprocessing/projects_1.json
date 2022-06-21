@@ -1,0 +1,109 @@
+{
+"projects": 
+[
+   {
+      "name": "apimd",
+      "version": "v1.2.1",
+      "repository": "https://github.com/KmolYuan/apimd",
+      "description": "API compiler for universal Markdown syntax",
+      "sources": "projects/apimd",
+      "modules": [
+         "apimd.compiler"
+      ]
+   },
+   {
+      "name": "black",
+      "version": "20.8b1",
+      "repository": "https://github.com/psf/black",
+      "description": "The Uncompromising Code Formatter",
+      "sources": "projects/black/src",
+      "modules": [
+         "black.__init__",
+         "blib2to3.pgen2.literals",
+         "blib2to3.pgen2.token"
+      ]
+   },
+   {
+      "name": "codetiming",
+      "version": "v1.3.0",
+      "repository": "https://github.com/realpython/codetiming",
+      "description": "Flexible, customizable timer",
+      "sources": "projects/codetiming",
+      "modules": [
+         "codetiming._timer",
+         "codetiming._timers"
+      ]
+   },
+   {
+      "name": "dataclasses-json",
+      "version": "v0.5.2",
+      "repository": "https://github.com/lidatong/dataclasses-json",
+      "description": "Encoding and Decoding Dataclasses to and from JSON",
+      "sources": "projects/dataclasses-json",
+      "modules": [
+         "dataclasses_json.undefined",
+         "dataclasses_json.core",
+         "dataclasses_json.cfg",
+         "dataclasses_json.api",
+         "dataclasses_json.mm"
+      ]
+   },
+   {
+      "name": "docstring_parser",
+      "version": "0.7.3",
+      "repository": "https://github.com/rr-/docstring_parser",
+      "description": "Parser for Python docstrings",
+      "sources": "projects/docstring_parser",
+      "modules": [
+         "docstring_parser.parser",
+         "docstring_parser.numpydoc",
+         "docstring_parser.rest",
+         "docstring_parser.google"
+      ]
+   },
+   {
+      "name": "flake8",
+      "version": "3.9.0",
+      "repository": "https://gitlab.com/pycqa/flake8",
+      "description": "Modular source code checker",
+      "sources": "projects/flake8/src",
+      "modules": [
+         "flake8.exceptions",
+         "flake8.statistics",
+         "flake8.api.legacy",
+         "flake8.formatting.base",
+         "flake8.formatting.default",
+         "flake8.main.debug",
+         "flake8.main.git",
+         "flake8.options.aggregator"
+      ]
+   },
+   {
+      "name": "flutes",
+      "version": "v0.3.0",
+      "repository": "https://github.com/huzecong/flutes",
+      "description": "Utilities for Python",
+      "sources": "projects/flutes",
+      "modules": [
+         "flutes.math",
+         "flutes.timing",
+         "flutes.iterator"
+      ]
+   },
+   {
+      "name": "flutils",
+      "version": "v0.7",
+      "repository": "https://gitlab.com/finite-loop/flutils",
+      "description": "Utilities for Python",
+      "sources": "projects/flutils",
+      "modules": [
+         "flutils.decorators",
+         "flutils.pathutils",
+         "flutils.strutils",
+         "flutils.packages",
+         "flutils.setuputils.cmd",
+         "flutils.namedtupleutils"
+      ]
+   }
+]
+}

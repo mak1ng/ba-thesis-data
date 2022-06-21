@@ -1,0 +1,4 @@
+	0
+print ( [string] ) [EOL]	0 0 0 0 0
+def test_works ( ) : [EOL] assert True [EOL]	0 0 0 0 0 0 0 0 0
+import subprocess [EOL] import sys [EOL] [EOL] [EOL] def test_mypy_compliance ( ) : [EOL] mypy_binary = subprocess . check_output ( [string] , shell = True , stderr = sys . stderr ) . decode ( [string] ) . replace ( [string] , [string] ) [EOL] [EOL] result = subprocess . call ( f'{ mypy_binary } [string] ' , shell = True , stdout = sys . stdout , stderr = sys . stderr ) [EOL] assert result == [number] [EOL]	0 0 0 0 0 0 0 0 0 $None$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

@@ -1,0 +1,2 @@
+[comment] [EOL] [docstring] [EOL] from hamcrest import assert_that , equal_to [EOL] [EOL] [EOL] def test_try ( ) : [EOL] assert_that ( True , equal_to ( True ) ) [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+	0

@@ -1,0 +1,4 @@
+	0
+from typing import Any [EOL] import typing [EOL] import builtins [EOL] def untyped ( arg ) : [EOL] var = arg + [number] [EOL] var2 = var * [number] [EOL] [EOL] return var2 / [number] [EOL] [EOL] [EOL] def typed ( arg ) : [EOL] var = arg + [number] [EOL] var2 = var * [number] [EOL] [EOL] return var2 / [number] [EOL] [EOL] [EOL] def another_typed ( arg ) : [EOL] upper = arg . upper ( ) [EOL] [EOL] if len ( upper ) >= [number] : [EOL] return upper [ [number] ] [EOL] return upper [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $builtins.float$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+from mypy_coverage_demo . main import another_typed [EOL] [EOL] [EOL] def test_another_typed_capitalizes ( ) : [EOL] assert another_typed ( [string] ) == [string] [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+	0

@@ -1,0 +1,2 @@
+def hello ( ) : [EOL] return [string] [EOL]	0 0 0 0 0 0 0 0 0
+import pytest [EOL] import main [EOL] [EOL] [EOL] def test_hello ( ) : [EOL] assert [string] == main . hello ( ) [EOL] [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

@@ -1,0 +1,1 @@
+[comment] [EOL] [EOL] [comment] [EOL] [EOL] [comment] [EOL] [comment] [EOL] [EOL] [EOL] import setuptools [EOL] [EOL] [EOL] if __name__ == [string] : [EOL] setuptools . setup ( ) [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

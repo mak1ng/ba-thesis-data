@@ -1,0 +1,375 @@
+{
+"projects": 
+[
+   {
+      "name": "apimd",
+      "version": "v1.2.1",
+      "repository": "https://github.com/KmolYuan/apimd",
+      "description": "API compiler for universal Markdown syntax",
+      "sources": "projects/apimd",
+      "modules": [
+         "apimd.compiler"
+      ]
+   },
+   {
+      "name": "black",
+      "version": "20.8b1",
+      "repository": "https://github.com/psf/black",
+      "description": "The Uncompromising Code Formatter",
+      "sources": "projects/black/src",
+      "modules": [
+         "black.__init__",
+         "blib2to3.pgen2.literals",
+         "blib2to3.pgen2.token"
+      ]
+   },
+   {
+      "name": "codetiming",
+      "version": "v1.3.0",
+      "repository": "https://github.com/realpython/codetiming",
+      "description": "Flexible, customizable timer",
+      "sources": "projects/codetiming",
+      "modules": [
+         "codetiming._timer",
+         "codetiming._timers"
+      ]
+   },
+   {
+      "name": "dataclasses-json",
+      "version": "v0.5.2",
+      "repository": "https://github.com/lidatong/dataclasses-json",
+      "description": "Encoding and Decoding Dataclasses to and from JSON",
+      "sources": "projects/dataclasses-json",
+      "modules": [
+         "dataclasses_json.undefined",
+         "dataclasses_json.core",
+         "dataclasses_json.cfg",
+         "dataclasses_json.api",
+         "dataclasses_json.mm"
+      ]
+   },
+   {
+      "name": "docstring_parser",
+      "version": "0.7.3",
+      "repository": "https://github.com/rr-/docstring_parser",
+      "description": "Parser for Python docstrings",
+      "sources": "projects/docstring_parser",
+      "modules": [
+         "docstring_parser.parser",
+         "docstring_parser.numpydoc",
+         "docstring_parser.rest",
+         "docstring_parser.google"
+      ]
+   },
+   {
+      "name": "flake8",
+      "version": "3.9.0",
+      "repository": "https://gitlab.com/pycqa/flake8",
+      "description": "Modular source code checker",
+      "sources": "projects/flake8/src",
+      "modules": [
+         "flake8.exceptions",
+         "flake8.statistics",
+         "flake8.api.legacy",
+         "flake8.formatting.base",
+         "flake8.formatting.default",
+         "flake8.main.debug",
+         "flake8.main.git",
+         "flake8.options.aggregator"
+      ]
+   },
+   {
+      "name": "flutes",
+      "version": "v0.3.0",
+      "repository": "https://github.com/huzecong/flutes",
+      "description": "Utilities for Python",
+      "sources": "projects/flutes",
+      "modules": [
+         "flutes.math",
+         "flutes.timing",
+         "flutes.iterator"
+      ]
+   },
+   {
+      "name": "flutils",
+      "version": "v0.7",
+      "repository": "https://gitlab.com/finite-loop/flutils",
+      "description": "Utilities for Python",
+      "sources": "projects/flutils",
+      "modules": [
+         "flutils.decorators",
+         "flutils.pathutils",
+         "flutils.strutils",
+         "flutils.packages",
+         "flutils.setuputils.cmd",
+         "flutils.namedtupleutils"
+      ]
+   },
+   {
+      "name": "httpie",
+      "version": "2.4.0",
+      "repository": "https://github.com/httpie/httpie",
+      "description": "Modern, user-friendly command-line HTTP client for the API area",
+      "sources": "projects/httpie",
+      "modules": [
+         "httpie.output.processing",
+         "httpie.models",
+         "httpie.cli.exceptions",
+         "httpie.plugins.base",
+         "httpie.plugins.builtin",
+         "httpie.sessions",
+         "httpie.cli.dicts",
+         "httpie.output.formatters.colors",
+         "httpie.cli.constants",
+         "httpie.output.formatters.json",
+         "httpie.plugins.manager",
+         "httpie.output.streams",
+         "httpie.ssl",
+         "httpie.status",
+         "httpie.utils",
+         "httpie.output.formatters.headers",
+         "httpie.core",
+         "httpie.config"
+      ]
+   },
+   {
+      "name": "isort",
+      "version": "5.8.0",
+      "repository": "https://github.com/PyCQA/isort",
+      "description": "Import sorting",
+      "sources": "projects/isort",
+      "modules": [
+         "isort.comments",
+         "isort._future._dataclasses",
+         "isort.io",
+         "isort.utils",
+         "isort.exceptions",
+         "isort.format"
+      ]
+   },
+   {
+      "name": "mimesis",
+      "version": "v4.1.3",
+      "repository": "https://github.com/lk-geimfari/mimesis",
+      "description": "Fake Data Generator",
+      "sources": "projects/mimesis",
+      "modules": [
+         "mimesis.providers.choice",
+         "mimesis.builtins.it",
+         "mimesis.builtins.uk",
+         "mimesis.providers.development",
+         "mimesis.providers.code",
+         "mimesis.providers.numbers",
+         "mimesis.providers.transport",
+         "mimesis.providers.clothing",
+         "mimesis.builtins.nl",
+         "mimesis.providers.science",
+         "mimesis.providers.hardware",
+         "mimesis.builtins.da",
+         "mimesis.providers.units",
+         "mimesis.exceptions",
+         "mimesis.enums",
+         "mimesis.builtins.base",
+         "mimesis.builtins.de",
+         "mimesis.decorators",
+         "mimesis.shortcuts",
+         "mimesis.builtins.pt_br",
+         "mimesis.builtins.pl"
+      ]
+   },
+   {
+      "name": "pdir2",
+      "version": "v0.3.1",
+      "repository": "https://github.com/laike9m/pdir2",
+      "description": "Pretty dir printing with joy",
+      "sources": "projects/pdir2",
+      "modules": [
+         "pdir._internal_utils",
+         "pdir.color",
+         "pdir.format",
+         "pdir.configuration",
+         "pdir.attr_category"
+      ]
+   },
+   {
+      "name": "py-backwards",
+      "version": "0.7",
+      "repository": "https://github.com/nvbn/py-backwards",
+      "description": "Bring Python 3.6 features to older versions",
+      "sources": "projects/py-backwards",
+      "modules": [
+         "py_backwards.transformers.class_without_bases",
+         "py_backwards.files",
+         "py_backwards.transformers.import_pathlib",
+         "py_backwards.transformers.python2_future",
+         "py_backwards.transformers.string_types",
+         "py_backwards.transformers.variables_annotations",
+         "py_backwards.transformers.yield_from",
+         "py_backwards.transformers.metaclass",
+         "py_backwards.utils.snippet",
+         "py_backwards.transformers.functions_annotations",
+         "py_backwards.conf",
+         "py_backwards.transformers.starred_unpacking",
+         "py_backwards.types",
+         "py_backwards.transformers.return_from_generator",
+         "py_backwards.utils.helpers",
+         "py_backwards.transformers.base",
+         "py_backwards.transformers.formatted_values",
+         "py_backwards.transformers.dict_unpacking"
+      ]
+   },
+   {
+      "name": "pyMonet",
+      "version": "0.12.0",
+      "repository": "https://github.com/przemyslawjanpietrzak/pyMonet",
+      "description": "High abstract library for functional programming",
+      "sources": "projects/pyMonet",
+      "modules": [
+         "pymonet.box",
+         "pymonet.immutable_list",
+         "pymonet.validation",
+         "pymonet.maybe",
+         "pymonet.monad_try",
+         "pymonet.lazy",
+         "pymonet.semigroups",
+         "pymonet.task"
+      ]
+   },
+   {
+      "name": "pypara",
+      "version": "0.0.24",
+      "repository": "https://github.com/vst/pypara",
+      "description": "Currencies, Monetary Value Objects, Arithmetic, and Conversion",
+      "sources": "projects/pypara",
+      "modules": [
+         "pypara.commons.numbers",
+         "pypara.commons.others",
+         "pypara.monetary",
+         "pypara.accounting.journaling",
+         "pypara.accounting.generic",
+         "pypara.commons.errors",
+         "pypara.commons.zeitgeist"
+      ]
+   },
+   {
+      "name": "python-semantic-release",
+      "version": "v7.15.3",
+      "repository": "https://github.com/relekang/python-semantic-release",
+      "description": "Automated Semantic Versioning for Python",
+      "sources": "projects/python-semantic-release",
+      "modules": [
+         "semantic_release.pypi",
+         "semantic_release.settings",
+         "semantic_release.dist",
+         "semantic_release.ci_checks"
+      ]
+   },
+   {
+      "name": "python-string-utils",
+      "version": "v1.0.0",
+      "repository": "https://github.com/daveoncode/python-string-utils",
+      "description": "Utilities for string manipulation",
+      "sources": "projects/python-string-utils",
+      "modules": [
+         "string_utils.validation",
+         "string_utils.errors",
+         "string_utils.manipulation"
+      ]
+   },
+   {
+      "name": "pytutils",
+      "version": "0.4.1",
+      "repository": "https://github.com/akatrevorjay/pytutils",
+      "description": "Heap of garbage from trevorj",
+      "sources": "projects/pytutils",
+      "modules": [
+         "pytutils.pythree",
+         "pytutils.pretty",
+         "pytutils.files",
+         "pytutils.iters",
+         "pytutils.sets",
+         "pytutils.excs",
+         "pytutils.log",
+         "pytutils.rand",
+         "pytutils.python",
+         "pytutils.trees",
+         "pytutils.debug",
+         "pytutils.memo",
+         "pytutils.lazy.lazy_regex",
+         "pytutils.env",
+         "pytutils.props",
+         "pytutils.lazy.lazy_import",
+         "pytutils.mappings",
+         "pytutils.path",
+         "pytutils.lazy.simple_import",
+         "pytutils.meth"
+      ]
+   },
+   {
+      "name": "sanic",
+      "version": "v21.3.2",
+      "repository": "https://github.com/sanic-org/sanic",
+      "description": "Async Python 3.7+ web server/framework",
+      "sources": "projects/sanic",
+      "modules": [
+         "sanic.cookies",
+         "sanic.asgi",
+         "sanic.models.futures",
+         "sanic.mixins.signals",
+         "sanic.models.protocol_types",
+         "sanic.signals",
+         "sanic.compat",
+         "sanic.helpers",
+         "sanic.mixins.routes",
+         "sanic.blueprints",
+         "sanic.config",
+         "sanic.mixins.middleware",
+         "sanic.base",
+         "sanic.handlers",
+         "sanic.views",
+         "sanic.blueprint_group",
+         "sanic.mixins.listeners",
+         "sanic.headers"
+      ]
+   },
+   {
+      "name": "sty",
+      "version": "1.0.0-rc.1",
+      "repository": "https://github.com/feluxe/sty",
+      "description": "String styling for your terminal",
+      "sources": "projects/sty",
+      "modules": [
+         "sty.renderfunc",
+         "sty.lib",
+         "sty.register"
+      ]
+   },
+   {
+      "name": "thonny",
+      "version": "v3.3.6",
+      "repository": "https://github.com/thonny/thonny",
+      "description": "Python IDE for beginners",
+      "sources": "projects/thonny",
+      "modules": [
+         "thonny.roughparse",
+         "thonny.terminal",
+         "thonny.languages",
+         "thonny.plugins.pgzero_frontend",
+         "thonny.token_utils"
+      ]
+   },
+   {
+      "name": "typesystem",
+      "version": "0.2.4",
+      "repository": "https://github.com/encode/typesystem",
+      "description": "Data-validation library",
+      "sources": "projects/typesystem",
+      "modules": [
+         "typesystem.unique",
+         "typesystem.tokenize.tokenize_yaml",
+         "typesystem.tokenize.positional_validation"
+      ]
+   }
+]
+}
+

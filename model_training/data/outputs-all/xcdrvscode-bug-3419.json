@@ -1,0 +1,4 @@
+import psycopg2 [EOL] [EOL] import mypackage [EOL] [EOL] def main ( ) : [EOL] print ( mypackage . HELLO ) [EOL] [EOL] if __name__ == [string] : [EOL] main ( )	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+HELLO = [string]	$builtins.str$ 0 0
+import psycopg2 [EOL] [EOL] import mypackage [EOL] [EOL] def main ( ) : [EOL] print ( mypackage . HELLO ) [EOL] [EOL] if __name__ == [string] : [EOL] main ( )	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+HELLO = [string]	$builtins.str$ 0 0

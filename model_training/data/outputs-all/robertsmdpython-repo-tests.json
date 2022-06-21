@@ -1,0 +1,2 @@
+	0
+def increment ( x ) : [EOL] return x + [number] [EOL] [EOL] def test_increment ( ) : [EOL] assert increment ( [number] ) == [number]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

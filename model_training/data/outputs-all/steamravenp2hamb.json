@@ -1,0 +1,1 @@
+from setuptools import setup [EOL] [EOL] setup ( name = [string] , version = [string] , py_modules = [ [string] ] , install_requires = [ [string] , [string] ] , entry_points = [string] , ) [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

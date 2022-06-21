@@ -1,0 +1,111 @@
+{
+"projects": 
+[
+   {
+      "name": "python-string-utils",
+      "version": "v1.0.0",
+      "repository": "https://github.com/daveoncode/python-string-utils",
+      "description": "Utilities for string manipulation",
+      "sources": "projects/python-string-utils",
+      "modules": [
+         "string_utils.validation",
+         "string_utils.errors",
+         "string_utils.manipulation"
+      ]
+   },
+   {
+      "name": "pytutils",
+      "version": "0.4.1",
+      "repository": "https://github.com/akatrevorjay/pytutils",
+      "description": "Heap of garbage from trevorj",
+      "sources": "projects/pytutils",
+      "modules": [
+         "pytutils.pythree",
+         "pytutils.pretty",
+         "pytutils.files",
+         "pytutils.iters",
+         "pytutils.sets",
+         "pytutils.excs",
+         "pytutils.log",
+         "pytutils.rand",
+         "pytutils.python",
+         "pytutils.trees",
+         "pytutils.debug",
+         "pytutils.memo",
+         "pytutils.lazy.lazy_regex",
+         "pytutils.env",
+         "pytutils.props",
+         "pytutils.lazy.lazy_import",
+         "pytutils.mappings",
+         "pytutils.path",
+         "pytutils.lazy.simple_import",
+         "pytutils.meth"
+      ]
+   },
+   {
+      "name": "sanic",
+      "version": "v21.3.2",
+      "repository": "https://github.com/sanic-org/sanic",
+      "description": "Async Python 3.7+ web server/framework",
+      "sources": "projects/sanic",
+      "modules": [
+         "sanic.cookies",
+         "sanic.asgi",
+         "sanic.models.futures",
+         "sanic.mixins.signals",
+         "sanic.models.protocol_types",
+         "sanic.signals",
+         "sanic.compat",
+         "sanic.helpers",
+         "sanic.mixins.routes",
+         "sanic.blueprints",
+         "sanic.config",
+         "sanic.mixins.middleware",
+         "sanic.base",
+         "sanic.handlers",
+         "sanic.views",
+         "sanic.blueprint_group",
+         "sanic.mixins.listeners",
+         "sanic.headers"
+      ]
+   },
+   {
+      "name": "sty",
+      "version": "1.0.0-rc.1",
+      "repository": "https://github.com/feluxe/sty",
+      "description": "String styling for your terminal",
+      "sources": "projects/sty",
+      "modules": [
+         "sty.renderfunc",
+         "sty.lib",
+         "sty.register"
+      ]
+   },
+   {
+      "name": "thonny",
+      "version": "v3.3.6",
+      "repository": "https://github.com/thonny/thonny",
+      "description": "Python IDE for beginners",
+      "sources": "projects/thonny",
+      "modules": [
+         "thonny.roughparse",
+         "thonny.terminal",
+         "thonny.languages",
+         "thonny.plugins.pgzero_frontend",
+         "thonny.token_utils"
+      ]
+   },
+   {
+      "name": "typesystem",
+      "version": "0.2.4",
+      "repository": "https://github.com/encode/typesystem",
+      "description": "Data-validation library",
+      "sources": "projects/typesystem",
+      "modules": [
+         "typesystem.unique",
+         "typesystem.tokenize.tokenize_yaml",
+         "typesystem.tokenize.positional_validation"
+      ]
+   }
+]
+}

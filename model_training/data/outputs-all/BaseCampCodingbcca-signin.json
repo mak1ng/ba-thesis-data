@@ -1,0 +1,12 @@
+	0
+from django . db import models [EOL] [EOL] [comment] [EOL]	0 0 0 0 0 0 0 0 0 0
+from django . shortcuts import render [EOL] [EOL] [comment] [EOL]	0 0 0 0 0 0 0 0 0 0
+from django . contrib import admin [EOL] [EOL] [comment] [EOL]	0 0 0 0 0 0 0 0 0 0
+from django . apps import AppConfig [EOL] [EOL] [EOL] class SigninsConfig ( AppConfig ) : [EOL] name = [string] [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0
+from django . test import TestCase [EOL] [EOL] [comment] [EOL]	0 0 0 0 0 0 0 0 0 0
+	0
+from . functional_testcase import FunctionalTestCase [EOL] [EOL] [EOL] class TestSignIn ( FunctionalTestCase ) : [EOL] [docstring] [EOL] [EOL] def test_happy_path ( self ) : [EOL] self . browser . visit ( [string] ) [EOL] [EOL] self . browser . click_link_by_partial_text ( [string] ) [EOL] [EOL] self . browser . fill_form ( { [string] : [string] } , form_id = [string] , ) [EOL] self . browser . find_by_css ( [string] ) . first . click ( ) [EOL] [EOL] signed_in_students = self . browser . find_by_id ( [string] ) . first [EOL] [EOL] self . assertIn ( [string] , signed_in_students . text ) [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+	0
+	0
+from typing import Any , List [EOL] import typing [EOL] [docstring] [EOL] from django . contrib import admin [EOL] from django . urls import path [EOL] [EOL] urlpatterns = [ path ( [string] , admin . site . urls ) , ] [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $typing.List[typing.Any]$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+from typing import Any [EOL] import typing [EOL] [docstring] [EOL] [EOL] import os [EOL] [EOL] from django . core . wsgi import get_wsgi_application [EOL] [EOL] os . environ . setdefault ( [string] , [string] ) [EOL] [EOL] application = get_wsgi_application ( ) [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $typing.Any$ 0 0 0 0 0

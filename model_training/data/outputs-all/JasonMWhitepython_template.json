@@ -1,0 +1,5 @@
+	0
+	0
+	0
+import builtins [EOL] class MyClass : [EOL] [EOL] def __init__ ( self , value ) : [EOL] self . _value = value [EOL] [EOL] def add_constant ( self , constant ) : [EOL] return self . _value + constant [EOL] [EOL] def print_value ( self ) : [EOL] print ( [string] . format ( self . _value ) ) [EOL] [EOL] [EOL] class MySubClass ( MyClass ) : [EOL] def __init__ ( self , first_value , second_value ) : [EOL] self . _other_value = second_value [EOL] super ( MySubClass , self ) . __init__ ( first_value ) [EOL] [EOL] def add_both_values ( self ) : [EOL] return self . _value + self . _other_value [EOL]	0 0 0 0 0 0 0 0 0 $None$ 0 0 0 $builtins.int$ 0 0 0 0 0 $builtins.int$ 0 $builtins.int$ 0 0 0 $builtins.int$ 0 0 0 $builtins.int$ 0 0 0 0 0 0 0 0 $builtins.int$ 0 0 0 $None$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $None$ 0 0 0 $builtins.int$ 0 $builtins.int$ 0 0 0 0 0 $builtins.int$ 0 $builtins.int$ 0 0 0 0 0 0 0 0 0 0 $builtins.int$ 0 0 0 0 $builtins.int$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+	0

@@ -1,0 +1,1 @@
+[docstring] [EOL] from setuptools import setup [EOL] [EOL] setup ( name = [string] , packages = [ [string] ] , include_package_data = True , install_requires = [ [string] , [string] , [string] , [string] , ] , ) [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

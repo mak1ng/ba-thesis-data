@@ -1,0 +1,31 @@
+from typing import Tuple , Union [EOL] import typing [EOL] __version__ = [string] [EOL] __version_info__ = tuple ( [ int ( num ) if num . isdigit ( ) else num for num in __version__ . replace ( [string] , [string] , [number] ) . split ( [string] ) ] ) [EOL]	0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0 $typing.Tuple[typing.Union[builtins.int,builtins.str],...]$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+	0
+	0
+[docstring] [EOL] [EOL] [comment] [EOL] from rest_framework . permissions import BasePermission [EOL] [EOL] class IsAccountOwner ( BasePermission ) : [EOL] [comment] [EOL] [EOL] def has_object_permission ( self , request , view , obj ) : [EOL] [comment] [EOL] return request . user == obj	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[comment] [EOL] [EOL] [comment] [EOL] from django . apps import AppConfig [EOL] [EOL] class UsersAppConfig ( AppConfig ) : [EOL] [comment] [EOL] [EOL] name = [string] [EOL] verbose_name = [string]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0 $builtins.str$ 0 0
+	0
+from . users import User [EOL] from . profiles import Profile	0 0 0 0 0 0 0 0 0 0 0
+from . users import *	0 0 0 0 0
+from . users import *	0 0 0 0 0
+	0
+[comment] [EOL] [EOL] [comment] [EOL] from django . apps import AppConfig [EOL] [EOL] class CirclesAppConfig ( AppConfig ) : [EOL] [comment] [EOL] [EOL] name = [string] [EOL] verbose_name = [string]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0 $builtins.str$ 0 0
+from . circles import * [EOL] from . memberships import *	0 0 0 0 0 0 0 0 0 0 0
+from . circles import *	0 0 0 0 0
+from . circles import Circle [EOL] from . memberships import Membership [EOL] from . invitations import Invitation	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+	0
+[comment] [EOL] [EOL] from typing import Tuple , List [EOL] import typing [EOL] from django . db import migrations [EOL] [EOL] [EOL] class Migration ( migrations . Migration ) : [EOL] [EOL] dependencies = [ ( [string] , [string] ) , ] [EOL] [EOL] operations = [ migrations . RenameField ( model_name = [string] , old_name = [string] , new_name = [string] , ) , ] [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $typing.List[typing.Tuple[builtins.str,builtins.str]]$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+	0
+from typing import Any [EOL] import typing [EOL] [docstring] [EOL] [EOL] [comment] [EOL] from django . test import TestCase [EOL] [EOL] [comment] [EOL] from cride . circles . models import Circle , Invitation [EOL] from cride . users . models import User [EOL] [EOL] [EOL] class InvitationsManagerTestCase ( TestCase ) : [EOL] [docstring] [EOL] [EOL] def setUp ( self ) : [EOL] [docstring] [EOL] self . user = User . objects . create ( first_name = [string] , last_name = [string] , email = [string] , username = [string] , password = [string] ) [EOL] self . circle = Circle . objects . create ( name = [string] , slug_name = [string] , about = [string] , verified = True ) [EOL] [EOL] def test_code_generation ( self ) : [EOL] [docstring] [EOL] invitation = Invitation . objects . create ( issued_by = self . user , circle = self . circle ) [EOL] import pdb ; pdb . set_trace ( ) [EOL] [comment] [EOL] [EOL] def test_code_usage ( self ) : [EOL] [docstring] [EOL] code = [string] [EOL] invitation = Invitation . objects . create ( issued_by = self . user , circle = self . circle , code = code ) [EOL] self . assertEqual ( invitation . code , code ) [EOL] [EOL] def test_code_generation_if_duplicated ( self ) : [EOL] [docstring] [EOL] code = Invitation . objects . create ( issued_by = self . user , circle = self . circle , ) . code [EOL] [EOL] [comment] [EOL] invitation = Invitation . objects . create ( issued_by = self . user , circle = self . circle , code = code ) [EOL] [EOL] self . assertNotEqual ( code , invitation . code ) [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $typing.Any$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0 $typing.Any$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 $builtins.str$ 0 0 0 0 0 0 $typing.Any$ 0 $builtins.str$ 0 $builtins.str$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $typing.Any$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $typing.Any$ 0 0 0 0
+from . invitations import *	0 0 0 0 0
+	0
+	0
+[comment] [EOL] [EOL] [comment] [EOL] from django . apps import AppConfig [EOL] [EOL] class RidesAppConfig ( AppConfig ) : [EOL] [comment] [EOL] [EOL] name = [string] [EOL] verbose_name = [string]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0 $builtins.str$ 0 0
+	0
+[comment] [EOL] [EOL] from typing import Tuple , List [EOL] import typing [EOL] from django . db import migrations [EOL] [EOL] [EOL] class Migration ( migrations . Migration ) : [EOL] [EOL] dependencies = [ ( [string] , [string] ) , ] [EOL] [EOL] operations = [ migrations . RenameField ( model_name = [string] , old_name = [string] , new_name = [string] , ) , ] [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $typing.List[typing.Tuple[builtins.str,builtins.str]]$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+	0
+	0
+from . rides import * [EOL] from . ratings import *	0 0 0 0 0 0 0 0 0 0 0
+from . rides import Ride [EOL] from . ratings import Rating	0 0 0 0 0 0 0 0 0 0 0
+from . rides import *	0 0 0 0 0
+	0
+	0

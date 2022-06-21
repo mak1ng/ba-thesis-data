@@ -1,0 +1,1 @@
+from . plugin import set_up , tear_down [EOL] [EOL] [comment] [EOL] from . plugin . sublime_text . VisualizeZeroWidthChars import * [EOL] [EOL] [EOL] def plugin_loaded ( ) : [EOL] set_up ( ) [EOL] [EOL] [EOL] def plugin_unloaded ( ) : [EOL] tear_down ( ) [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $None$ 0 0 0 0 0 0 0 0 0 0 0 $None$ 0 0 0 0 0 0 0 0

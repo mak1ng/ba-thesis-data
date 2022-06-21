@@ -1,0 +1,2 @@
+import builtins [EOL] [docstring] [EOL] [EOL] [EOL] def greet ( name ) : [EOL] [docstring] [EOL] return f" [string] { name }" [EOL] [EOL] [EOL] if __name__ == [string] : [EOL] import sys [EOL] [EOL] print ( greet ( sys . argv [ [number] ] ) ) [EOL]	0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[docstring] [EOL] from app import greet [EOL] [EOL] [EOL] def test_greet ( ) : [EOL] [docstring] [EOL] assert greet ( [string] ) == [string] [EOL]	0 0 0 0 0 0 0 0 0 0 $None$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0

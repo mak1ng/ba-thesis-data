@@ -1,0 +1,4 @@
+from typing import List [EOL] import typing [EOL] __version__ = [string] [EOL] [EOL] from . core import add [EOL] [EOL] __all__ = [ [string] ] [EOL]	0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0 0 0 0 0 0 0 0 0 $typing.List[builtins.str]$ 0 0 0 0 0
+if __name__ == [string] : [EOL] from . cli import main [EOL] main ( ) [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+import builtins [EOL] def add ( x , y ) : [EOL] return x + y [EOL]	0 0 0 0 $builtins.int$ 0 0 0 0 0 0 0 0 0 0 0 0
+from osmpy import add [EOL] [EOL] [EOL] def test_add ( ) : [EOL] assert add ( [number] , [number] ) == [number] [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

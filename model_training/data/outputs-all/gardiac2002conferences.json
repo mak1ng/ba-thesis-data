@@ -1,0 +1,1 @@
+import builtins [EOL] def nothing ( ) : [EOL] return [number] [EOL] [EOL] [EOL] def something ( ) : [EOL] return None [EOL] [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

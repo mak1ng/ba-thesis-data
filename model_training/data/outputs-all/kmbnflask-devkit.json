@@ -1,0 +1,4 @@
+import flask [EOL] from flask import Flask [EOL] [EOL] app = Flask ( __name__ ) [EOL] [EOL] [EOL] @ app . route ( [string] ) def hello ( ) : [EOL] return [string] [EOL]	0 0 0 0 0 0 0 0 0 $flask.app.Flask$ 0 0 0 0 0 0 0 0 0 $flask.app.Flask$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+	0
+from typing import Any [EOL] import typing [EOL] [docstring] [EOL] import pytest [EOL] [EOL] from flask_app . app import app [EOL] [EOL] [EOL] @ pytest . fixture def client ( ) : [EOL] app . config [ [string] ] = True [EOL] yield app . test_client ( ) [EOL] [EOL] [EOL] def test_hello ( client ) : [EOL] [docstring] [EOL] r = client . get ( [string] ) [EOL] expected = [string] [EOL] [EOL] assert r . data == expected [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+	0

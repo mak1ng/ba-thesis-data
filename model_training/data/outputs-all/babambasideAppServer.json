@@ -1,0 +1,28 @@
+	0
+	0
+from typing import Tuple , Union [EOL] import typing [EOL] __version__ = [string] [EOL] __version_info__ = tuple ( [ int ( num ) if num . isdigit ( ) else num for num in __version__ . replace ( [string] , [string] , [number] ) . split ( [string] ) ] ) [EOL]	0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0 $typing.Tuple[typing.Union[builtins.int,builtins.str],...]$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+from django . apps import AppConfig [EOL] [EOL] [EOL] class ImagesConfig ( AppConfig ) : [EOL] name = [string] [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0
+	0
+from django . test import TestCase [EOL] [EOL] [comment] [EOL]	0 0 0 0 0 0 0 0 0 0
+	0
+from django . test import TestCase [EOL] [EOL] [comment] [EOL]	0 0 0 0 0 0 0 0 0 0
+from typing import Tuple [EOL] import typing [EOL] from django . contrib import admin [EOL] from . import models [EOL] [comment] [EOL] [EOL] [EOL] @ admin . register ( models . Notification ) class NotificationAdmin ( admin . ModelAdmin ) : [EOL] [EOL] list_display = ( [string] , [string] ) [EOL] [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $typing.Tuple[builtins.str,builtins.str]$ 0 0 0 0 0 0 0 0
+	0
+from django . apps import AppConfig [EOL] [EOL] [EOL] class NotificationsConfig ( AppConfig ) : [EOL] name = [string] [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0
+	0
+[comment] [EOL] [EOL] from typing import Tuple , List [EOL] import typing [EOL] from django . db import migrations [EOL] [EOL] [EOL] class Migration ( migrations . Migration ) : [EOL] [EOL] dependencies = [ ( [string] , [string] ) , ] [EOL] [EOL] operations = [ migrations . AlterModelOptions ( name = [string] , options = { [string] : [ [string] ] } , ) , ] [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $typing.List[typing.Tuple[builtins.str,builtins.str]]$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+from django . apps import AppConfig [EOL] [EOL] [EOL] class UsersConfig ( AppConfig ) : [EOL] [EOL] name = [string] [EOL] verbose_name = [string] [EOL] [EOL] def ready ( self ) : [EOL] [docstring] [EOL] [EOL] from . signals import user_signed_up	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0 $builtins.str$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+	0
+	0
+import django [EOL] import pytest [EOL] from django . conf import settings [EOL] [EOL] pytestmark = pytest . mark . django_db [EOL] [EOL] [EOL] def test_user_get_absolute_url ( user ) : [EOL] assert user . get_absolute_url ( ) == f" [string] { user . username } [string] " [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+	0
+	0
+from django . apps import AppConfig [EOL] [EOL] [EOL] class SalaryConfig ( AppConfig ) : [EOL] name = [string] [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0
+from django . contrib import admin [EOL] [EOL] [comment] [EOL]	0 0 0 0 0 0 0 0 0 0
+from django . test import TestCase [EOL] [EOL] [comment] [EOL]	0 0 0 0 0 0 0 0 0 0
+[comment] [EOL] [EOL] from typing import Tuple , List [EOL] import typing [EOL] from django . db import migrations [EOL] [EOL] [EOL] class Migration ( migrations . Migration ) : [EOL] [EOL] dependencies = [ ( [string] , [string] ) , ] [EOL] [EOL] operations = [ migrations . RemoveField ( model_name = [string] , name = [string] , ) , ] [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $typing.List[typing.Tuple[builtins.str,builtins.str]]$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+	0
+[comment] [EOL] [EOL] from typing import Tuple , List [EOL] import typing [EOL] from django . db import migrations , models [EOL] [EOL] [EOL] class Migration ( migrations . Migration ) : [EOL] [EOL] dependencies = [ ( [string] , [string] ) , ] [EOL] [EOL] operations = [ migrations . CreateModel ( name = [string] , fields = [ ( [string] , models . AutoField ( auto_created = True , primary_key = True , serialize = False , verbose_name = [string] ) ) , ( [string] , models . DateTimeField ( auto_now_add = True ) ) , ( [string] , models . DateTimeField ( auto_now = True ) ) , ] , options = { [string] : [ [string] ] , } , ) , migrations . AlterField ( model_name = [string] , name = [string] , field = models . CharField ( default = [number] , max_length = [number] , null = True ) , ) , migrations . AlterField ( model_name = [string] , name = [string] , field = models . CharField ( default = [number] , max_length = [number] , null = True ) , ) , ] [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $typing.List[typing.Tuple[builtins.str,builtins.str]]$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[docstring] [EOL]	0 0
+[docstring] [EOL]	0 0
+[docstring] [EOL]	0 0

@@ -1,0 +1,29 @@
+from typing import Tuple , Union [EOL] import typing [EOL] __version__ = [string] [EOL] __version_info__ = tuple ( [ int ( num ) if num . isdigit ( ) else num for num in __version__ . replace ( [string] , [string] , [number] ) . split ( [string] ) ] ) [EOL]	0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0 $typing.Tuple[typing.Union[builtins.int,builtins.str],...]$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[docstring] [EOL] [EOL] [comment] [EOL] from django . apps import AppConfig [EOL] [EOL] [EOL] class RidesConfig ( AppConfig ) : [EOL] [docstring] [EOL] [EOL] name = [string] [EOL] verbose_name = [string] [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0 $builtins.str$ 0 0 0
+	0
+from . rides import * [EOL]	0 0 0 0 0 0
+from . rides import * [EOL]	0 0 0 0 0 0
+	0
+from . rides import * [EOL]	0 0 0 0 0 0
+	0
+[docstring] [EOL] [EOL] [comment] [EOL] from django . apps import AppConfig [EOL] [EOL] [EOL] class CirclesConfig ( AppConfig ) : [EOL] [docstring] [EOL] [EOL] name = [string] [EOL] verbose_name = [string] [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0 $builtins.str$ 0 0 0
+from . test_invitations import InvitationTestCase [EOL]	0 0 0 0 0 0
+[docstring] [EOL] from . circles import IsCircleAdmin [EOL] from . memberships import * [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0
+from typing import Type [EOL] import cride [EOL] import typing [EOL] [docstring] [EOL] [EOL] [comment] [EOL] from django . db import models [EOL] [EOL] [comment] [EOL] from cride . circles . models import Circle [EOL] from cride . users . models import User [EOL] [EOL] [comment] [EOL] from cride . circles . managers import InvitationManager [EOL] [EOL] [comment] [EOL] from cride . utils . models import CRideModel [EOL] [EOL] [EOL] class Invitation ( CRideModel ) : [EOL] [docstring] [EOL] [EOL] code = models . CharField ( max_length = [number] , unique = True ) [EOL] [EOL] issued_by = models . ForeignKey ( User , on_delete = models . CASCADE , help_text = [string] , related_name = [string] ) [EOL] used_by = models . ForeignKey ( User , on_delete = models . CASCADE , null = True , help_text = [string] ) [EOL] circle = models . ForeignKey ( Circle , on_delete = models . CASCADE ) [EOL] [EOL] used = models . BooleanField ( default = False ) [EOL] used_at = models . DateTimeField ( blank = True , null = True ) [EOL] [EOL] [comment] [EOL] objects = InvitationManager ( ) [EOL] [EOL] def __str__ ( self ) : [EOL] return [string] . format ( self . circle . slug_name , self . code ) [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $typing.Type[cride.circles.models.invitations.Invitation]$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $typing.Type[cride.circles.models.invitations.Invitation]$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $typing.Type[cride.circles.models.invitations.Invitation]$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $typing.Type[cride.circles.models.invitations.Invitation]$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $typing.Type[cride.circles.models.invitations.Invitation]$ 0 0 0 0 0 0 0 0 0 0 $typing.Type[cride.circles.models.invitations.Invitation]$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $typing.Type[cride.circles.models.invitations.Invitation]$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[comment] [EOL] from . circles import Circle [EOL] from . memberships import Membership [EOL] from . invitations import Invitation [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+from . invitations import * [EOL]	0 0 0 0 0 0
+	0
+[docstring] [EOL] from . circles import * [EOL] from . memberships import * [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0
+	0
+[comment] [EOL] [EOL] from typing import Tuple , List [EOL] import typing [EOL] from django . db import migrations [EOL] [EOL] [EOL] class Migration ( migrations . Migration ) : [EOL] [EOL] dependencies = [ ( [string] , [string] ) , ] [EOL] [EOL] operations = [ migrations . RenameField ( model_name = [string] , old_name = [string] , new_name = [string] , ) , ] [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $typing.List[typing.Tuple[builtins.str,builtins.str]]$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+	0
+	0
+[docstring] [EOL] [EOL] [comment] [EOL] from rest_framework . permissions import BasePermission [EOL] [EOL] [EOL] class IsAccountOwner ( BasePermission ) : [EOL] [docstring] [EOL] [EOL] def has_object_permission ( self , request , view , obj ) : [EOL] [docstring] [EOL] [EOL] return request . user == obj [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[docstring] [EOL] [EOL] [comment] [EOL] from django . apps import AppConfig [EOL] [EOL] [EOL] class UsersConfig ( AppConfig ) : [EOL] [docstring] [EOL] [EOL] name = [string] [EOL] verbose_name = [string] [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0 $builtins.str$ 0 0 0
+[comment] [EOL] from . users import User [EOL] from . profiles import Profile [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[comment] [EOL] from . users import * [EOL]	0 0 0 0 0 0 0 0
+[comment] [EOL] from . users import * [EOL]	0 0 0 0 0 0 0 0
+	0
+	0
+	0
+	0

@@ -1,0 +1,8 @@
+[docstring] [EOL]	0 0
+	0
+	0
+	0
+	0
+	0
+	0
+from typing import Dict , Any [EOL] import typing [EOL] import logging [EOL] [docstring] [EOL] [EOL] import json [EOL] import logging [EOL] import os [EOL] [EOL] log_level = os . environ . get ( [string] , [string] ) [EOL] logging . root . setLevel ( logging . getLevelName ( log_level ) ) [comment] [EOL] _logger = logging . getLogger ( __name__ ) [EOL] [EOL] [EOL] def handler ( event , context ) : [EOL] [docstring] [EOL] _logger . debug ( [string] . format ( json . dumps ( event ) ) ) [EOL] [EOL] resp = { } [EOL] _logger . debug ( [string] . format ( json . dumps ( resp ) ) ) [EOL] return resp [EOL] [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0 0 $logging.Logger$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $logging.Logger$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $logging.Logger$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

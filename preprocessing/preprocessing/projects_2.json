@@ -1,0 +1,77 @@
+{
+"projects": 
+[
+   {
+      "name": "httpie",
+      "version": "2.4.0",
+      "repository": "https://github.com/httpie/httpie",
+      "description": "Modern, user-friendly command-line HTTP client for the API area",
+      "sources": "projects/httpie",
+      "modules": [
+         "httpie.output.processing",
+         "httpie.models",
+         "httpie.cli.exceptions",
+         "httpie.plugins.base",
+         "httpie.plugins.builtin",
+         "httpie.sessions",
+         "httpie.cli.dicts",
+         "httpie.output.formatters.colors",
+         "httpie.cli.constants",
+         "httpie.output.formatters.json",
+         "httpie.plugins.manager",
+         "httpie.output.streams",
+         "httpie.ssl",
+         "httpie.status",
+         "httpie.utils",
+         "httpie.output.formatters.headers",
+         "httpie.core",
+         "httpie.config"
+      ]
+   },
+   {
+      "name": "isort",
+      "version": "5.8.0",
+      "repository": "https://github.com/PyCQA/isort",
+      "description": "Import sorting",
+      "sources": "projects/isort",
+      "modules": [
+         "isort.comments",
+         "isort._future._dataclasses",
+         "isort.io",
+         "isort.utils",
+         "isort.exceptions",
+         "isort.format"
+      ]
+   },
+   {
+      "name": "mimesis",
+      "version": "v4.1.3",
+      "repository": "https://github.com/lk-geimfari/mimesis",
+      "description": "Fake Data Generator",
+      "sources": "projects/mimesis",
+      "modules": [
+         "mimesis.providers.choice",
+         "mimesis.builtins.it",
+         "mimesis.builtins.uk",
+         "mimesis.providers.development",
+         "mimesis.providers.code",
+         "mimesis.providers.numbers",
+         "mimesis.providers.transport",
+         "mimesis.providers.clothing",
+         "mimesis.builtins.nl",
+         "mimesis.providers.science",
+         "mimesis.providers.hardware",
+         "mimesis.builtins.da",
+         "mimesis.providers.units",
+         "mimesis.exceptions",
+         "mimesis.enums",
+         "mimesis.builtins.base",
+         "mimesis.builtins.de",
+         "mimesis.decorators",
+         "mimesis.shortcuts",
+         "mimesis.builtins.pt_br",
+         "mimesis.builtins.pl"
+      ]
+   }
+]
+}

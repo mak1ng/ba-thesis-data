@@ -1,0 +1,92 @@
+{
+"projects": 
+[
+   {
+      "name": "pdir2",
+      "version": "v0.3.1",
+      "repository": "https://github.com/laike9m/pdir2",
+      "description": "Pretty dir printing with joy",
+      "sources": "projects/pdir2",
+      "modules": [
+         "pdir._internal_utils",
+         "pdir.color",
+         "pdir.format",
+         "pdir.configuration",
+         "pdir.attr_category"
+      ]
+   },
+   {
+      "name": "py-backwards",
+      "version": "0.7",
+      "repository": "https://github.com/nvbn/py-backwards",
+      "description": "Bring Python 3.6 features to older versions",
+      "sources": "projects/py-backwards",
+      "modules": [
+         "py_backwards.transformers.class_without_bases",
+         "py_backwards.files",
+         "py_backwards.transformers.import_pathlib",
+         "py_backwards.transformers.python2_future",
+         "py_backwards.transformers.string_types",
+         "py_backwards.transformers.variables_annotations",
+         "py_backwards.transformers.yield_from",
+         "py_backwards.transformers.metaclass",
+         "py_backwards.utils.snippet",
+         "py_backwards.transformers.functions_annotations",
+         "py_backwards.conf",
+         "py_backwards.transformers.starred_unpacking",
+         "py_backwards.types",
+         "py_backwards.transformers.return_from_generator",
+         "py_backwards.utils.helpers",
+         "py_backwards.transformers.base",
+         "py_backwards.transformers.formatted_values",
+         "py_backwards.transformers.dict_unpacking"
+      ]
+   },
+   {
+      "name": "pyMonet",
+      "version": "0.12.0",
+      "repository": "https://github.com/przemyslawjanpietrzak/pyMonet",
+      "description": "High abstract library for functional programming",
+      "sources": "projects/pyMonet",
+      "modules": [
+         "pymonet.box",
+         "pymonet.immutable_list",
+         "pymonet.validation",
+         "pymonet.maybe",
+         "pymonet.monad_try",
+         "pymonet.lazy",
+         "pymonet.semigroups",
+         "pymonet.task"
+      ]
+   },
+   {
+      "name": "pypara",
+      "version": "0.0.24",
+      "repository": "https://github.com/vst/pypara",
+      "description": "Currencies, Monetary Value Objects, Arithmetic, and Conversion",
+      "sources": "projects/pypara",
+      "modules": [
+         "pypara.commons.numbers",
+         "pypara.commons.others",
+         "pypara.monetary",
+         "pypara.accounting.journaling",
+         "pypara.accounting.generic",
+         "pypara.commons.errors",
+         "pypara.commons.zeitgeist"
+      ]
+   },
+   {
+      "name": "python-semantic-release",
+      "version": "v7.15.3",
+      "repository": "https://github.com/relekang/python-semantic-release",
+      "description": "Automated Semantic Versioning for Python",
+      "sources": "projects/python-semantic-release",
+      "modules": [
+         "semantic_release.pypi",
+         "semantic_release.settings",
+         "semantic_release.dist",
+         "semantic_release.ci_checks"
+      ]
+   }
+]
+}

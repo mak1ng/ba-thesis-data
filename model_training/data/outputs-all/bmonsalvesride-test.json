@@ -1,0 +1,8 @@
+	0
+	0
+[docstring] [EOL] [EOL] [comment] [EOL] from django . apps import AppConfig [EOL] [EOL] [EOL] class UsersAppConfig ( AppConfig ) : [EOL] [docstring] [EOL] [EOL] name = [string] [EOL] verbose_name = [string] [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0 $builtins.str$ 0 0 0
+from . users import User [EOL]	0 0 0 0 0 0
+	0
+	0
+	0
+	0

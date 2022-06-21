@@ -1,0 +1,10 @@
+from typing import Any [EOL] import typing [EOL] import os [EOL] [EOL] from django . core . wsgi import get_wsgi_application [EOL] [EOL] os . environ . setdefault ( [string] , [string] ) [EOL] [EOL] application = get_wsgi_application ( ) [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $typing.Any$ 0 0 0 0 0
+[docstring] [EOL]	0 0
+from . local import * [EOL]	0 0 0 0 0 0
+	0
+	0
+from django . dispatch import receiver [EOL] from rosetta . signals import post_save [EOL] [EOL] [EOL] @ receiver ( post_save ) def restart_server ( sender , ** kwargs ) : [EOL] [docstring] [EOL] import os [EOL] os . system ( [string] ) [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+from django . conf import settings [EOL] [EOL] if not settings . DEBUG : [EOL] from . rosetta import * [comment] [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+import jinja2 [EOL] from jinja2 import Environment [EOL] [EOL] [EOL] def environment ( ** options ) : [EOL] [docstring] [EOL] options [ [string] ] = [number] [EOL] [EOL] env = Environment ( ** options ) [EOL] [EOL] return env [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+	0
+	0
