@@ -1,0 +1,1 @@
+[EOL] [EOL] def do_nothing ( kwargs ) : [EOL] pass [EOL] [EOL] [EOL] if __name__ == [string] : [EOL] do_nothing ( ) [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

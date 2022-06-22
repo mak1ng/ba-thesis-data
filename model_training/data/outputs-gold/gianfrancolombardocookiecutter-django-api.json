@@ -1,0 +1,16 @@
+	0
+	0
+	0
+	0
+[docstring] [EOL] [EOL] [comment] [EOL] from django . apps import AppConfig [EOL] [EOL] class ApiAppConfig ( AppConfig ) : [EOL] [docstring] [EOL] [EOL] name = [string] [EOL] verbose_name = [string] [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0 $builtins.str$ 0 0 0
+	0
+	0
+	0
+	0
+	0
+[docstring] [EOL] [EOL] [comment] [EOL] from rest_framework . permissions import BasePermission [EOL] [EOL] [EOL] class IsAccountOwner ( BasePermission ) : [EOL] [docstring] [EOL] [EOL] def has_object_permission ( self , request , view , obj ) : [EOL] [docstring] [EOL] return request . user == obj [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[docstring] [EOL] [EOL] [comment] [EOL] from django . apps import AppConfig [EOL] [EOL] [EOL] class UsersAppConfig ( AppConfig ) : [EOL] [docstring] [EOL] [EOL] name = [string] [EOL] verbose_name = [string] [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0 $builtins.str$ 0 0 0
+from . users import * [EOL]	0 0 0 0 0 0
+	0
+from . users import * [EOL]	0 0 0 0 0 0
+	0

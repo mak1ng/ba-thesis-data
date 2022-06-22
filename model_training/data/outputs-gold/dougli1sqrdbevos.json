@@ -1,0 +1,3 @@
+from setuptools import setup , find_packages [EOL] [EOL] setup ( name = [string] , version = [string] , packages = find_packages ( ) , include_package_data = True , install_requires = [ [string] , [string] , [string] ] , entry_points = [string] ) [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+	0
+	0

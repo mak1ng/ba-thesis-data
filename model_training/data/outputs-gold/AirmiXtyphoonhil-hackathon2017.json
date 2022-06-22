@@ -1,0 +1,6 @@
+[comment] [EOL] [docstring] [EOL] [EOL] import sys [EOL] from hackathon . solution . solution import run [EOL] [EOL] __author__ = [string] [EOL] __copyright__ = [string] [EOL] __license__ = [string] [EOL] [EOL] if __name__ == [string] : [EOL] run ( sys . argv ) [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0 $builtins.str$ 0 0 0 $builtins.str$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[comment] [EOL] [docstring] [EOL] [EOL] import sys [EOL] from hackathon . framework . framework import run [EOL] [EOL] __author__ = [string] [EOL] __copyright__ = [string] [EOL] __license__ = [string] [EOL] [EOL] [EOL] if __name__ == [string] : [EOL] run ( sys . argv ) [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0 $builtins.str$ 0 0 0 $builtins.str$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+	0
+	0
+	0
+	0

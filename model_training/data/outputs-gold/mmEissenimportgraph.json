@@ -1,0 +1,2 @@
+from setuptools import setup [EOL] [EOL] [EOL] setup ( name = [string] , version = [string] , description = [string] , py_modules = [ [string] ] , license = [string] , python_requires = [string] , install_requires = [ [string] ] , ) [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+	0

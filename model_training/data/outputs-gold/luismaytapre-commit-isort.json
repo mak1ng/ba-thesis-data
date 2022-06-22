@@ -1,0 +1,1 @@
+[comment] [EOL] from setuptools import setup [EOL] [EOL] setup ( name = [string] , version = [string] , install_requires = [ [string] ] , ) [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

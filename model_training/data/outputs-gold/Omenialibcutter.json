@@ -1,0 +1,6 @@
+[comment] [EOL] [EOL] [EOL] __version__ = [string] [EOL]	0 0 0 0 $builtins.str$ 0 0 0
+[comment] [EOL] [EOL] [EOL] def test_import ( library ) : [EOL] assert library [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[comment] [EOL] [EOL] [EOL] import pytest [EOL] [EOL] from src import examplelib [EOL] [EOL] [EOL] @ pytest . fixture ( ) def library ( ) : [EOL] return examplelib [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+	0
+	0
+[comment] [EOL] [EOL] [EOL] def test_import ( library ) : [EOL] assert library [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0

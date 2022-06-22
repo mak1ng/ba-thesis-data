@@ -1,0 +1,3 @@
+from typing import List , Any [EOL] import typing [EOL] [docstring] [EOL] from django . contrib import admin [EOL] from django . urls import path [EOL] [EOL] urlpatterns = [ path ( [string] , admin . site . urls ) , ] [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $typing.List[typing.Any]$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+from typing import Any [EOL] import typing [EOL] [docstring] [EOL] [EOL] import os [EOL] [EOL] from django . core . wsgi import get_wsgi_application [EOL] [EOL] os . environ . setdefault ( [string] , [string] ) [EOL] [EOL] application = get_wsgi_application ( ) [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $typing.Any$ 0 0 0 0 0
+	0

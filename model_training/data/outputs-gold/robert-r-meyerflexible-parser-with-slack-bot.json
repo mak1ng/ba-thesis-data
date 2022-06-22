@@ -1,0 +1,7 @@
+	0
+	0
+from typing import Any [EOL] import typing [EOL] import json [EOL] [EOL] import pandas as pd [EOL] [EOL] [EOL] class FormatFor : [EOL] [docstring] [EOL] [EOL] @ classmethod def slack_json_as_code_blob ( cls , blob ) : [EOL] return [string] + json . dumps ( blob , indent = [number] , sort_keys = True ) + [string] [EOL] [EOL] @ classmethod def slack_csv_blob ( cls , blob ) : [EOL] [comment] [EOL] [comment] [EOL] [EOL] df = pd . DataFrame ( blob ) [EOL] [EOL] if type ( blob ) is list : [EOL] return df . to_csv ( index = False ) [EOL] [EOL] return None [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $typing.Any$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $typing.Any$ 0 0 0 0 0 0 0 0 0 0 0 0
+	0
+	0
+	0
+	0

@@ -1,0 +1,1 @@
+[comment] [EOL] [EOL] import builtins [EOL] def double ( x ) : [EOL] [docstring] [EOL] return [number] * x [EOL] [EOL] [EOL]	0 0 0 0 0 0 0 $builtins.int$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0

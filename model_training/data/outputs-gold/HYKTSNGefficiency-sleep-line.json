@@ -1,0 +1,2 @@
+from src . constants . env import LINE_ACCESS_TOKEN [EOL] [EOL] print ( LINE_ACCESS_TOKEN ) [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+import os [EOL] from os . path import dirname , join [EOL] [EOL] from dotenv import load_dotenv [EOL] [EOL] [comment] [EOL] dotenv_path = join ( dirname ( __file__ ) , [string] ) [EOL] load_dotenv ( dotenv_path ) [EOL] [EOL] LINE_ACCESS_TOKEN = os . environ [ [string] ] [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0 0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0 $builtins.str$ 0 0 0 0 0 0 0 0

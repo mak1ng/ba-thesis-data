@@ -1,0 +1,4 @@
+from discordbot import main [EOL] [EOL] main . init ( ) [EOL]	0 0 0 0 0 0 0 0 0 0 0 0
+class PDException ( Exception ) : [EOL] pass [EOL] [EOL] class OperationalException ( PDException ) : [EOL] pass [EOL] [EOL] class ParseException ( PDException ) : [EOL] pass [EOL] [EOL] class InvalidDataException ( PDException ) : [EOL] pass [EOL] [EOL] class DatabaseException ( PDException ) : [EOL] pass [EOL] [EOL] class DoesNotExistException ( PDException ) : [EOL] pass [EOL] [EOL] class TooManyItemsException ( PDException ) : [EOL] pass [EOL] [EOL] class TooFewItemsException ( PDException ) : [EOL] pass [EOL] [EOL] class InvalidArgumentException ( PDException ) : [EOL] pass [EOL] [EOL] class LockNotAcquiredException ( DatabaseException ) : [EOL] pass [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+	0
+	0

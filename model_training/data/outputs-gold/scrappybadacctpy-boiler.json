@@ -1,0 +1,4 @@
+from setuptools import setup [EOL] [EOL] setup ( name = [string] , version = [string] , author = [string] , author_email = [string] , description = [string] , license = [string] , keywords = [string] , url = [string] , packages = [ [string] , [string] , [string] ] , entry_points = { [string] : [ [string] ] } , ) [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+def saySomething ( ) : [EOL] print ( [string] ) [EOL]	0 0 0 0 0 0 0 0 0 0 0
+[comment] [EOL] [EOL] [EOL] def main ( ) : [EOL] pass [EOL]	0 0 0 0 0 0 0 0 0 0 0 0
+from lib . utils import saySomething [EOL] [EOL] [EOL] def test_saySomething ( ) : [EOL] saySomething ( ) [EOL] assert True [EOL] [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

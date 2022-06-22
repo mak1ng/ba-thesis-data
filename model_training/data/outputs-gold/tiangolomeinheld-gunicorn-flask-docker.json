@@ -1,0 +1,3 @@
+	0
+	0
+import flask [EOL] import sys [EOL] [EOL] from flask import Flask [EOL] [EOL] app = Flask ( __name__ ) [EOL] [EOL] [EOL] @ app . route ( [string] ) def hello ( ) : [EOL] version = [string] . format ( sys . version_info . major , sys . version_info . minor ) [EOL] message = [string] . format ( version ) [EOL] return message [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 $flask.app.Flask$ 0 0 0 0 0 0 0 0 0 $flask.app.Flask$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

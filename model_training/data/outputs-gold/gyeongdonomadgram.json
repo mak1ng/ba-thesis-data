@@ -1,0 +1,19 @@
+from typing import Tuple , Union [EOL] import typing [EOL] __version__ = [string] [EOL] __version_info__ = tuple ( [ int ( num ) if num . isdigit ( ) else num for num in __version__ . replace ( [string] , [string] , [number] ) . split ( [string] ) ] ) [EOL]	0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0 $typing.Tuple[typing.Union[builtins.int,builtins.str],...]$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+from django . apps import AppConfig [EOL] [EOL] [EOL] class ImagesConfig ( AppConfig ) : [EOL] name = [string] [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0
+	0
+from django . test import TestCase [EOL] [EOL] [comment] [EOL]	0 0 0 0 0 0 0 0 0 0
+	0
+	0
+from django . test import TestCase [EOL] [EOL] [comment] [EOL]	0 0 0 0 0 0 0 0 0 0
+from django . apps import AppConfig [EOL] [EOL] [EOL] class NotificationsConfig ( AppConfig ) : [EOL] name = [string] [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0
+	0
+	0
+from django . apps import AppConfig [EOL] [EOL] [EOL] class UsersAppConfig ( AppConfig ) : [EOL] [EOL] name = [string] [EOL] verbose_name = [string] [EOL] [EOL] def ready ( self ) : [EOL] try : [EOL] import users . signals [comment] [EOL] except ImportError : [EOL] pass [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $builtins.str$ 0 0 0 $builtins.str$ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+	0
+	0
+import django [EOL] import pytest [EOL] from django . conf import settings [EOL] [EOL] pytestmark = pytest . mark . django_db [EOL] [EOL] [EOL] def test_user_get_absolute_url ( user ) : [EOL] assert user . get_absolute_url ( ) == f" [string] { user . username } [string] " [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[docstring] [EOL]	0 0
+[docstring] [EOL]	0 0
+[docstring] [EOL]	0 0
+	0
+	0

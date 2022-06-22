@@ -1,0 +1,3 @@
+[comment] [EOL] [EOL] from foo . bar import Baz [EOL] [EOL] print ( Baz . boo ) [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[EOL] from . baz import Baz [EOL]	0 0 0 0 0 0 0
+class Baz : [EOL] boo = [number] [EOL] [EOL] def __init__ ( self ) : [EOL] pass [EOL]	0 0 0 0 $builtins.int$ 0 0 0 0 0 0 0 0 0 0 0 0 0

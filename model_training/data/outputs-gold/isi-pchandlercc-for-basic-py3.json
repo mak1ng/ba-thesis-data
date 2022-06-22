@@ -1,0 +1,9 @@
+	0
+import logging [EOL] [docstring] [EOL] [EOL] import logging [EOL] import pytest [EOL] [EOL] _LOGGER = logging . getLogger ( __name__ ) [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 $logging.Logger$ 0 0 0 0 0 0 0 0
+import logging [EOL] [docstring] [EOL] [EOL] import logging [EOL] import pytest [EOL] [EOL] _LOGGER = logging . getLogger ( __name__ ) [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 $logging.Logger$ 0 0 0 0 0 0 0 0
+import logging [EOL] [docstring] [EOL] [EOL] import logging [EOL] [EOL] import pytest [EOL] [EOL] _LOGGER = logging . getLogger ( __name__ ) [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 $logging.Logger$ 0 0 0 0 0 0 0 0
+	0
+import logging [EOL] [docstring] [EOL] [EOL] import logging [EOL] [EOL] import pytest [EOL] [EOL] _LOGGER = logging . getLogger ( __name__ ) [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 $logging.Logger$ 0 0 0 0 0 0 0 0
+import logging [EOL] [docstring] [EOL] [EOL] import logging [EOL] [EOL] import pytest [EOL] [EOL] _LOGGER = logging . getLogger ( __name__ ) [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 $logging.Logger$ 0 0 0 0 0 0 0 0
+	0
+import logging [EOL] [docstring] [EOL] [EOL] import logging [EOL] [EOL] import pytest [EOL] [EOL] _LOGGER = logging . getLogger ( __name__ ) [EOL]	0 0 0 0 0 0 0 0 0 0 0 0 0 0 $logging.Logger$ 0 0 0 0 0 0 0 0
