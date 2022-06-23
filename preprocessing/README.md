@@ -29,7 +29,7 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/conda/lib/
 conda deactivate 
 
 cd root/preprocessing/
-ls -la is_type_valid.sh
+chmod +x is_type_valid.sh 
 bash preprocess_project.sh -n 5
 ```
 
