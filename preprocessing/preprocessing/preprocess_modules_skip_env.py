@@ -365,12 +365,13 @@ def predict_anns(tokens):
         elif v.startswith(("___MF", "___MP")):
             r = [i[0] for i in sorted(enumerate(pred[count]), key=lambda x: x[1], reverse=True)]
             guesses, invalid_guesses, skipped, missing_pathname, none_value, invalid_type = get_predictions(r, skipped_types)
-            skipped_types.update(invalid_guesses)
-            number_of_skipped_types += skipped
-            number_of_annotated_types += 1
-            number_of_none_skips += none_value
-            number_of_missing_path_skips += missing_pathname
-            number_of_invalid_types += invalid_type
+            if v[5:-5] != "self":
+                skipped_types.update(invalid_guesses)
+                number_of_skipped_types += skipped
+                number_of_annotated_types += 1
+                number_of_none_skips += none_value
+                number_of_missing_path_skips += missing_pathname
+                number_of_invalid_types += invalid_type
             v_value = v[5:-5]
             if v.startswith("___MP"):
                 if v_value != "self":
