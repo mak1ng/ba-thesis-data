@@ -1,6 +1,6 @@
 # ba-thesis-data
 
-This repository includes the data for the BA-Thesis `DeepTyper for Python`.
+This repository includes the data for the BA-Thesis `DeepTyper für Python und der Einfluss von Typvorhersagen auf die automatische Testgenerierung`.
 
 All processes were run on Linux, there is no guarantee that they will work on other operating systems.
 
