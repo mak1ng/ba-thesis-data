@@ -4,7 +4,7 @@ The model training and evaluation is based on the work of [DeepTyper](https://gi
 
 All of these Python commands are executed in Python 3.6, recommended is the use of an anaconda environment.
 
-`models` should contain 10 trained models, but as they need to much space, you have to download it from [Google Drive](https://drive.google.com/drive/folders/1VsOmzFGH3Jo6t8n_QZqM_iCYTrGujbGi?usp=sharing) and insert it manually. 
+There should be a directory called `models` containing 10 trained models, but as they need to much space, you have to download it from [Google Drive](https://drive.google.com/drive/folders/1VsOmzFGH3Jo6t8n_QZqM_iCYTrGujbGi?usp=sharing) and insert it manually. 
 
 `data` includes folders `outputs-all` and `outputs-gold` which contain the data for training and testing. Furthermore the token and type vocabulary files and files including information about training, validation and testdata.
 
