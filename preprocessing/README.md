@@ -4,7 +4,7 @@ This directory includes the files used for preprocess the 78 modules used in the
 
 `results_78.csv` contains the results of the preprocessing. It lists the number of made predictions and skipped types for each module.
 
-`preprocessing` includes the whole data used for preprocessing except the Deeptyper models. Please insert the two model files (`model-5.cntk` and `model-5.cntk.ckp`) inside this folder if you want to recreate the results.
+`preprocessing` includes the whole data used for preprocessing except the Deeptyper models. Please insert the two model files (`model-5.cntk` and `model-5.cntk.ckp`) inside that folder if you want to recreate the results. As the model files need to much space, you have to download it from [Google Drive](https://drive.google.com/drive/folders/1VsOmzFGH3Jo6t8n_QZqM_iCYTrGujbGi?usp=sharing) and insert it manually. 
 In addition to the preprocessing scripts it also contains a version of [autoimport](https://github.com/lyz-code/autoimport) modified to fit the tasks.
 
 To reproduce the results create the docker image and run the following commands:
